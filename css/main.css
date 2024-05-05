@@ -1,0 +1,637 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+
+}
+
+/* ------- NAV ------------ */
+
+
+nav {
+    background-color: #fff;
+    display: inline-flex;
+    width: 100%;
+    box-shadow:0px 5px 10px 2px #2e2e2e60 ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+nav .logo {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, sans-serif;
+    color: #6d6d6d;
+    text-decoration: none;
+}
+
+nav .logo .span1{
+    color: #f79617;
+}
+
+nav .logo .span2{
+    color: #34c4f0;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 100px;
+    
+}
+nav ul li{
+
+    text-align: center;
+    padding-left: 60px;
+
+}
+
+nav ul li a{
+/* background-color: #006b00; */
+
+font-size: 20px;
+text-decoration: none;
+color: #6d6d6d;
+}
+
+nav ul li a:hover{
+    color: #0077ff;
+}
+
+nav .button {
+    padding-left: 100px;
+}
+
+nav .button a {
+    padding: 8px 30px;
+    border-radius: 5px;
+    border: #cdd1d9 1px solid;
+    text-decoration: none;
+    color: #5f687b;
+
+}
+
+nav .button a:hover{
+    background-color: #0077ff;
+    color: #fff;
+    border: none;
+}
+
+.i{
+    display: none;
+}
+
+
+
+/* --------------- Section1 ------------------- */
+.section1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    margin-top: 40px;
+    margin-bottom: 90px; 
+
+
+}
+
+.section1 .box-img img{
+    width: 380px;
+    animation-name: img;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes img{
+
+    0%{
+        transform: translateY(25px);
+    }
+
+    50%{
+
+        transform: translateY(-25px);
+    }
+
+    100%{
+        transform: translateY(25px);
+    }
+}
+
+
+.right-side{
+
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right-side h1 {
+    width: 80%;
+    text-align: right;
+    font-family: Raleway, sans-serif;
+    color: #005b6d;
+    font-size: 45px;
+    padding-top: 95px;
+}
+
+.right-side p {
+    margin-top: 20px;
+    color: #aaaaaa;
+    font-size: x-large;
+    width: 80%;
+    text-align: right;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.right-side .btn-start {
+    margin-top: 40px;
+    text-align: right;
+    width: 80%;   
+}
+
+.right-side .btn-start a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 8px;
+    border: 1px solid rgb(65, 226, 255);
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #47bbff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.877);
+}
+
+
+
+
+.right-side .btn-start a:hover {
+    background-color: #005b6d;
+}
+
+/* ---------- Sacand Section 1-------------- */
+.box {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    flex-wrap: wrap;
+    height: fit-content;
+    margin-bottom: 100px;
+
+}
+
+
+.box .box1 .b1 {
+    text-align: right;
+    background-color: rgba(226, 225, 225, 0.356);
+    width: 500px;
+    margin-left: 40px;
+    border-radius: 10px;
+    padding: 30px;
+    flex-wrap: wrap;
+
+}
+
+.box .box1 .b1:hover{
+    box-shadow: 0 0 5px rgba(201, 201, 201, 0.527),
+    0 0 2px rgba(155, 155, 155, 0.527), 0 0 5px rgba(66, 66, 66, 0.527),
+    0 0 10px rgba(155, 155, 155, 0.527), 0 0 20px rgba(155, 155, 155, 0.527);
+}
+
+.box .box1 .b1 .icon{
+    padding-right: 5px;
+    font-size: 25px;
+}
+
+.box .box1 .b1 h4 {
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box .box1 .b1 p {
+    padding-top: 20px;
+    font-size: 17px;
+
+}
+
+.box .box2 .b2 {
+    text-align: right;
+    background-color: rgba(226, 225, 225, 0.356);
+    width: 500px;
+    margin-left: 40px;
+    border-radius: 10px;
+    padding: 30px;
+    flex-wrap: wrap;
+
+}
+
+.box .box2 .b2:hover{
+    box-shadow: 0 0 5px rgba(201, 201, 201, 0.527),
+    0 0 2px rgba(155, 155, 155, 0.527), 0 0 5px rgba(66, 66, 66, 0.527),
+    0 0 10px rgba(155, 155, 155, 0.527), 0 0 20px rgba(155, 155, 155, 0.527);
+}
+
+.box .box2 .b2 .icon{
+    padding-right: 5px;
+    font-size: 25px;
+}
+
+.box .box2 .b2 h4 {
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box .box2 .b2 p {
+    padding-top: 20px;
+    font-size: 17px;
+
+}
+
+
+/* ---------------- Section2 -------------- */
+
+
+.section2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding-top: 100px;
+    margin-bottom: 200px;
+
+    
+}
+
+
+.section2 .box-img2 img{
+    width: 600px;
+}
+
+.section2 .who {
+    text-align: right ;
+}
+.section2 .who .text-bar{
+    border-radius: 20px;
+    color: #747474;
+    flex-wrap: wrap;
+}
+
+.section2 .who .text-bar h1{
+    padding-top: 20px;
+    font-size: 40px;
+padding-right: 20px;
+}
+
+.section2 .who .text-bar p {
+    padding: 20px 20px;
+    font-size: 18px;
+}
+
+
+
+
+/*-------------- Serves --------------------- */
+
+.serves{
+    background-color: #cecece25;
+}
+
+.serves .title h1{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    color: #747474;
+    text-align: center;
+}
+
+.serves .title p{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    padding-left: 80px;
+
+}
+
+
+.serves .row .d{
+    background-color: #fff;
+    width: 160px;
+    height: 100px;
+    text-align: center;
+    padding: 25px;
+    justify-content: center;
+    border-radius: 8px;
+    margin-top: 20px;
+
+}
+
+.serves .row .d h1{
+    padding: 20px 0;
+}
+
+.serves .row .d:hover {
+    box-shadow: 0 0 2px rgba(201, 201, 201, 0.527),
+        0 0 2px rgba(155, 155, 155, 0.527), 0 0 1px rgba(66, 66, 66, 0.527),
+        0 0 20px rgba(155, 155, 155, 0.527), 0 0 1px rgba(155, 155, 155, 0.527);
+    color: #00b5da;
+}
+
+
+
+
+
+/* -----------Our Customers ---------------------*/
+.titel2 {
+
+    text-align: center;
+    margin-top: 200px;
+    padding-bottom: 200px;
+    /* background-color: #00326b; */
+}
+
+.titel2 h1 {
+    padding-top: 200px;
+    padding-bottom: 70px;
+    font-size: 50px;
+    color: #747474;
+    text-align: center;
+}
+
+.titel2 p{
+    font-size: 19px;
+    width: 50%;
+    margin-left: 340px;
+    text-align: center;
+}
+
+
+/* ------------------ contant --------------- */
+
+.contact .contener .inf {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.contact .contener .inf h1 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    color: #747474;
+    text-align: center;
+    
+}
+
+.contact .contener .inf p{
+    padding-bottom: 30px;
+    font-size: 19px;
+
+}
+
+
+.Collector{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contener1{
+    margin-left: 70px;
+    display: flex;
+    background-color: #c4c4c43b;
+    padding: 30px;
+    margin-top: 60px;
+    width: 520px;
+    border-top: 3px solid #00bfe6;
+    border-bottom: 3px solid #00b5da;
+}
+
+form {
+    width: 100%;
+
+
+    direction: rtl;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+form .both {
+    padding-top: 20px;
+    display: flex;
+
+
+}
+
+form .both label {
+    margin-right: 10px;
+}
+
+form .both input {
+    padding: 10px 35px;
+    border-radius: 5px;
+    border: 0.5px solid #d3d3d3;
+    margin: 10px;
+    outline-color: #53baff;
+
+}
+
+form .group {
+    padding-top: 20px;
+    display:block;
+    margin-bottom: 30px;
+}
+
+form .group label {
+    margin: 10px;
+}
+
+form .group input {
+    padding: 10px 165px;
+    margin-right: 10px;
+    border: 0.5px solid #d3d3d3;
+    border-radius: 5px;
+    margin-top: 5px;
+    outline-color: #53baff;
+}
+
+form .mas label {
+    margin-right: 10px;
+}
+
+textarea {
+    resize: none;
+    padding: 60px 122px;
+    margin-right: 10px;
+    margin-top: 5px;
+    border: 0.5px solid rgb(211, 211, 211);
+    border-radius: 5px;
+    outline-color: rgb(83, 186, 255);
+}
+
+
+.form .button {
+
+    text-align: center;
+    margin-top: 30px;
+
+
+}
+
+.form .button button {
+    padding: 12px 35px;
+    border: 0.5px solid rgb(211, 211, 211);
+    background-color: rgb(28, 149, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 1px rgb(119, 183, 255);
+}
+
+.form .button button:hover {
+    background-color: #00326b;
+} 
+
+
+.contener2{
+    display: flex;
+    background-color: #c4c4c43b;
+    padding: 30px;
+    margin-top: 60px;
+    width: 450px;
+    border-top: 3px solid #00bfe6;
+    border-bottom: 3px solid #00b5da;
+}
+
+.map h1{
+    direction: ltr;
+    border-radius: 40px;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map h1:hover {
+    background-color: #81fdb5;
+
+}
+
+.map h4 {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    color: #747474;
+}
+
+.map p {
+    text-align: right;
+
+}
+
+
+.contact .contener2 .iframe {
+    padding-top: 30px;
+    width: 100%;
+}
+
+
+
+
+/* ---------- FOOTER -------------- */
+
+
+
+footer .Programmers {
+    width: 100%;
+
+    background-color: #c4c4c43b;
+    margin-top: 120px;
+    text-align: center;
+}
+
+footer .Programmers .logo {
+    margin: 0px 115px;
+    border-bottom: 2px solid #64646481;
+}
+
+footer .Programmers .logo h1 {
+
+    padding-top: 90px;
+    font-weight: bolder;
+    font-family: Bahnschrift SemiBold;
+    color: rgb(116, 116, 116);
+    font-size: 40px;
+    padding-bottom: 40px;
+
+}
+
+
+footer .Programmers .logo .h4 .i{
+    display: inline-flex;
+}
+
+footer .Programmers .logo .h4 .i a {
+    background-color: #cfcfcf79;
+    margin: 30px 15px 30px 30px;
+    font-size: 20px;
+    padding: 10px 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Programmers .logo .h4 .i a i{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Programmers .logo .h4 .i a:hover {
+    background-color: #00b5da;
+    color: #fff
+}
+
+
+.end2 {
+    background-color: #ffffff;
+    padding: 50px;
+    
+}
+
+.end2 .copy {
+    float: left;
+    margin-left: 140px;
+
+}
+
+ .asem a{
+    color: #00bfe6;
+    font-family: Bahnschrift SemiBold;
+    text-decoration: none;
+}
+ .asem a:hover{
+    color: #00d423;
+}
