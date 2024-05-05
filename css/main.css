@@ -635,3 +635,263 @@ footer .Programmers .logo .h4 .i a {
  .asem a:hover{
     color: #00d423;
 }
+
+
+
+@media (min-width:320px) and (max-width:480px){
+
+ul li{
+    display: none;
+}
+
+nav .logo {
+
+text-align: center;
+width: 100%;
+}
+
+nav .button{
+    display: none;
+}
+
+.section1{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.section1 .right-side h1{
+    font-size: 28px;
+    direction: ltr;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0;
+    margin: 0%;
+    
+}
+.box .box1{
+    width: 360px;
+}
+.box .box1 .b1{
+    width: 250px;
+    padding: 20px 20px;
+}
+
+.box .box2{
+    width: 360px;
+}
+.box .box2 .b2{
+    width: 250px;
+    padding: 20px 20px;
+}
+
+.section2{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.section2 .who {
+    width: 360px;
+}
+
+.section2 .box-img2 img{
+
+    background-color: #00326b;
+    width: 360px;
+    /* height: 400px; */
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.titel2{
+    margin: auto;
+}
+
+.titel2 p{
+    padding: 20px 20px;
+    margin: 0;
+    width: 310px;
+}
+
+.contener .Collector{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0%;
+    margin: 0%;
+}
+
+.Collector .contener1{
+    margin: 0%;
+    padding: 0%;
+    width: 360px;
+    /* text-align: center; */
+}
+
+form{
+
+    padding: 0%;
+    margin: 0%;
+}
+
+form .both {
+    padding: 0;
+    margin: 0;
+    display: block;
+
+}
+form .both .name label {
+    line-height: 20px;
+    display: block;
+}
+
+form input{
+    width: 250px;
+
+}
+
+form .group label {
+    display: block;
+}
+
+form .group input{
+    padding: 10px 0;
+    width: 315px;
+}
+
+textarea{
+    padding: 0;
+    width: 315px;
+}
+
+form .button{
+    margin-bottom: 20px;
+}
+
+.Collector .contener2{
+    margin: 0%;
+    padding: 0%;
+    width: 360px;
+    /* text-align: center; */
+}
+
+.map .address{
+width: 360px;
+padding-right: 20px;
+}
+
+.map .address h4,.map .address p{
+    padding: 0 20px;
+}
+
+.map .email{
+    width: 360px;
+    padding-right: 20px;
+}
+
+.map .email h4,.map .email p{
+    padding: 0 20px;
+}
+
+.map .tel{
+    width: 360px;
+}
+.map .tel h4,.map .tel p{
+    padding: 0 20px;
+}
+
+.map .iframe iframe{
+    padding-left: 20px;
+    width: 320px;
+}
+
+
+
+
+footer .Programmers{
+    text-align: left;
+}
+
+footer .Programmers .logo {
+    margin: 0;
+}
+
+footer .Programmers .logo h1 {
+    font-size: 35px;
+    padding-left: 10px;
+
+}
+
+footer .Programmers .logo .h4 .i a {
+
+    margin: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer .Programmers .logo .h4 .i a {
+    background-color: #cfcfcf79;
+    margin: 30px 15px 30px 30px;
+    font-size: 20px;
+    padding: 10px 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+
+.Programmers .logo .h4 .i a i{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.end2{
+    background-color: #00326b;
+    text-align: center;
+    padding: 30px 0;
+    /* margin: 0%; */
+
+}
+
+.end2 .copy {
+    padding: 0;
+    margin: 0%;
+    font-size: 15px;
+}
+
+}
