@@ -637,6 +637,8 @@ footer .Programmers .logo .h4 .i a {
 }
 
 
+/*-------------- Media Query ----------------  */
+
 
 @media (min-width:320px) and (max-width:480px){
 
@@ -668,6 +670,7 @@ nav .button{
     grid-template-columns: 1fr;
 
 
+
 }
 .section1 .box-img img{
     width: 340px;
@@ -675,19 +678,31 @@ nav .button{
 }
 
 .section1 .right-side h1{
+    width: 100%;
     font-size: 28px;
-    direction: ltr;
+    text-align: center;
     
 }
 
+.section1 .right-side p{
+    width: 100%;
+    text-align: center;
+}
 
+.section1 .right-side .btn-start {
+    width: 100%;
+text-align: center;
+
+}
 
 .box {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 40px;
     padding: 0;
     margin: 0%;
+
+
 
 
 
@@ -723,7 +738,6 @@ nav .button{
 
 .section2 .box-img2 img{
 
-    background-color: #00326b;
     width: 360px;
     /* height: 400px; */
 }
@@ -732,12 +746,10 @@ nav .button{
 .row{
     display: grid;
     grid-template-columns: 1fr;
-
 }
 
 .titel2{
     margin: auto;
-
 }
 
 .titel2 p{
@@ -758,7 +770,8 @@ nav .button{
     margin: 0%;
     padding: 0%;
     width: 360px;
-    /* text-align: center; */
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 form{
@@ -806,6 +819,8 @@ form .button{
     padding: 0%;
     width: 360px;
     /* text-align: center; */
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .map .address{
@@ -842,7 +857,7 @@ padding-right: 0px;
 
 
 footer .Programmers{
-    text-align: left;
+    text-align: center;
 }
 
 footer .Programmers .logo {
@@ -850,8 +865,8 @@ footer .Programmers .logo {
 }
 
 footer .Programmers .logo h1 {
-    font-size: 35px;
-    padding-left: 10px;
+    font-size: 32px;
+    text-align: center;
 
 }
 
@@ -871,12 +886,14 @@ footer .Programmers .logo .h4 .i a {
     padding: 0;
     margin: 0%;
     font-size: 15px;
+    width: 100%;
 }
 
 
 }
 
 
+/* ============ MEDIA 2 ============= */
 
 
 
@@ -885,6 +902,207 @@ footer .Programmers .logo .h4 .i a {
 
 
 
+    ul li {
+        display: none;
+    }
+    
+    nav .logo {
+    text-align: center;
+    width: 100%;
+
+    
+    }
+    
+    nav .button{
+        display: none;
+    }
+
+
+    /*---------- section 1 ------- */
+
+    .section1 .box-img img{
+        width: 340px;
+    
+    }
+    
+    .section1 .right-side h1{
+        width: 100%;
+        font-size: 28px;
+        text-align: center;
+        
+    }
+    
+    .section1 .right-side p{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .section1 .right-side .btn-start {
+        width: 100%;
+    text-align: center;
+    
+    }
+
+
+    /*---------- section 2------- */
+    
+
+
+
+
+
+    .section1{
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    
+    
+    }
+    .section1 .box-img img{
+        width: 340px;
+    
+    }
+    
+    .section1 .right-side h1{
+        width: 100%;
+        font-size: 28px;
+        text-align: center;
+        
+    }
+    
+    .section1 .right-side p{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .section1 .right-side .btn-start {
+        width: 100%;
+    text-align: center;
+    
+    }
+    
+    .box {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 0;
+        margin: 0%;
+    
+    
+    
+        
+    }
+    .box .box1{
+
+        padding: 0px 20px;
+    }
+    .box .box1 .b1{
+        text-align: center;
+        width: 100% ;
+        margin: 0%;
+        padding:  20px 0 ;
+
+    }
+    
+    .box .box2{
+        padding: 0px 20px;
+    }
+    .box .box2 .b2{
+        text-align: center;
+        width: 100% ;
+        margin: 0%;
+        padding:  20px 0 ;
+    }
+    
+    .section2{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .section2 .who {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    .section2 .box-img2 img{
+        width: 100%;
+    }
+    
+    /* --------- Serves -------------- */
+    .row{
+      display: grid;
+      grid-template-columns:repeat(2, auto);
+      margin: 0%;
+      padding: 0px;
+      justify-content: center;
+     }
+    
+    .row .d {
+
+    padding: 0%;
+    margin: 0%;
+    }
+    .titel2{
+        margin: auto;
+    }
+    
+    .titel2 p{
+        padding: 20px 0px;
+        width: 100%;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    
+/* ----------- Contact ------------ */
+
+    .contener .Collector{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .Collector .contener1{
+        margin: 0%;
+        padding: 0%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+    
+    form{
+
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    form .both {
+        display: block;
+    }
+    
+    form .both .name input{
+        width: 70%;
+    }
+
+    form .both .email input{
+        width: 70%;
+    }
+    
+    form .group input{
+        padding: 10px 0;
+        width: 77%;
+    }
+
+    textarea{
+        padding: 0;
+        width: 80%;
+    }
+    
+    form .button{
+        margin-bottom: 20px;
+    }
 
 
 
@@ -894,12 +1112,451 @@ footer .Programmers .logo .h4 .i a {
 
 
 
+    
+    .Collector .contener2{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    
+    .map .address{
+    width: 100%;
+    padding-right: 0px;
+    }
+    
+    .map .address h4,.map .address p{
+        padding: 0 20px;
+    }
+    
+    .map .email{
+        width: 100%;
+        padding-right: 0px;
+    }
+    
+    .map .email h4,.map .email p{
+        padding: 0 20px;
+    }
+    
+    .map .tel{
+        width: 100%;
+    }
+    .map .tel h4,.map .tel p{
+        padding: 0 20px;
+    }
+    
+    .map .iframe iframe{
+        padding-left: 20px;
+        width: 90%;
+    }
+
+/* ----------FOOTER ----------- */
+
+    footer .Programmers{
+        text-align: center;
+    }
+    
+    footer .Programmers .logo {
+        margin: 0;
+    }
+    
+    footer .Programmers .logo h1 {
+        font-size: 32px;
+        text-align: center;
+    
+    }
+    
+    footer .Programmers .logo .h4 .i a {
+        margin: 15px;
+    }
+    
+    
+    .end2{
+        text-align: center;
+        padding: 30px 0;
+        /* margin: 0%; */
+    
+    }
+    
+    .end2 .copy {
+        padding: 0;
+        margin: 0%;
+        font-size: 15px;
+        width: 100%;
+    }
+
+}
+
+
+
+/* ===============MEDIA 3 =========== */
+
+@media (min-width:769px) and (max-width:1024px){
+
+
+
+nav ul {
+    display: flex;
+    padding: 0%;
+}
+
+nav .button{
+    display: none;
+}
+
+
+/*---------- section 1 ------- */
+
+.section1 .box-img img{
+    width: 340px;
+
+}
+
+.section1 .right-side h1{
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
+    
+}
+
+.section1 .right-side p{
+    width: 100%;
+    text-align: center;
+}
+
+.section1 .right-side .btn-start {
+    width: 100%;
+text-align: center;
+
+}
+
+
+
+.section1{
+    display: grid;
+    grid-template-columns:repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+
+
+}
+.section1 .box-img img{
+    width: 340px;
+
+}
+
+.section1 .right-side h1{
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
+    
+}
+
+.section1 .right-side p{
+    width: 100%;
+    text-align: center;
+}
+
+.section1 .right-side .btn-start {
+    width: 100%;
+text-align: center;
+
+}
+
+
+/*---------- BOX ------- */
+.box {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 0;
+    margin: 0%;
+
+
+
+    
+}
+.box .box1{
+
+    padding: 0px 20px;
+}
+.box .box1 .b1{
+    text-align: center;
+    width: 100% ;
+    margin: 0%;
+    padding:  20px 0 ;
+
+}
+
+.box .box2{
+    padding: 0px 20px;
+}
+.box .box2 .b2{
+    text-align: center;
+    width: 100% ;
+    margin: 0%;
+    padding:  20px 0 ;
+}
+
+
+/*---------- section 2------- */
+
+.section2{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.section2 .who {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.section2 .box-img2 img{
+    width: 100%;
+}
+
+
+/*------------- Serves ---------- */
+
+
+.row{
+    display: grid;
+    grid-template-columns:repeat(3, auto);
+    margin: 0%;
+    padding: 0px;
+    justify-content: center;
+   }
+  
+  .row .d {
+
+  padding: 0%;
+  margin: 0%;
+  }
+  .titel2{
+      margin: auto;
+  }
+  
+  .titel2 p{
+      padding: 20px 0px;
+      width: 100%;
+      margin: 0;
+      flex-wrap: wrap;
+  }
+  
+
+/* ------------- Contact ------------ */
+
+
+
+
+.contener .Collector{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+.Collector .contener1{
+    margin: 0%;
+    padding: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+form{
+
+    padding: 0%;
+    margin: 0%;
+}
+
+form .both {
+    display: block;
+}
+
+form .both .name input{
+    width: 70%;
+}
+
+form .both .email input{
+    width: 70%;
+}
+
+form .group input{
+    padding: 10px 0;
+    width: 77%;
+}
+
+textarea{
+    padding: 0;
+    width: 80%;
+}
+
+form .button{
+    margin-bottom: 20px;
+}
+
+
+
+.Collector .contener2{
+    display: grid;
+    grid-template-columns:auto;
+    justify-content: center;
+
+}
+
+.map .address{
+width: 100%;
+padding-right: 0px;
+}
+
+.map .address h4,.map .address p{
+    padding: 0 20px;
+}
+
+.map .email{
+    width: 100%;
+    padding-right: 0px;
+}
+
+.map .email h4,.map .email p{
+    padding: 0 20px;
+}
+
+.map .tel{
+    width: 100%;
+}
+.map .tel h4,.map .tel p{
+    padding: 0 20px;
+}
+
+.map .iframe iframe{
+    padding-left: 20px;
+    width: 90%;
+}
+
+
+/* -------footer---------------- */
+
+
+
+footer .Programmers{
+    text-align: center;
+}
+
+footer .Programmers .logo {
+    margin: 0;
+}
+
+footer .Programmers .logo h1 {
+    font-size: 50px;
+    text-align: center;
+
+}
+
+
+
+
+.end2{
+    text-align: center;
+    padding: 30px 0;
+    /* margin: 0%; */
+
+}
+
+.end2 .copy {
+    padding: 0;
+    margin: 0%;
+    font-size: 15px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+
+}
+
+
+
+
+@media (min-width:1025px) and (max-width:1200px){
 
 
 
 
 
+/*---------- BOX ------- */
+.box {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 40px;
+    padding: 0;
+    margin: 0%;
+    justify-content: center;
 
+
+
+    
+}
+.box .box1{
+
+    padding: 0px 20px;
+}
+.box .box1 .b1{
+    text-align: center;
+    width: 100% ;
+    margin: 0%;
+    padding:  20px 0 ;
+
+}
+
+.box .box2{
+    padding: 0px 20px;
+}
+.box .box2 .b2{
+    text-align: center;
+    width: 100% ;
+    margin: 0%;
+    padding:  20px 0 ;
+}
+
+
+
+.contener .Collector{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+.Collector .contener1{
+    margin: 0%;
+    padding: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+.form{
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.Collector .contener2{
+    margin: 0%;
+    padding: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
 
 
 
